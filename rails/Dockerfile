@@ -37,6 +37,6 @@ RUN gem install bundler rails
 
 RUN bundle install
 
-RUN rails webpacker:install
+# RUN rails webpacker:install
 
 EXPOSE 3000

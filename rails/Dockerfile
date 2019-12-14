@@ -22,7 +22,7 @@ RUN set -x && \
     libstdc++ \
     tzdata \
     nodejs \
- #   nodejs-npm \
+    nodejs-npm \
     build-base \
     linux-headers \
     ca-certificates \
@@ -31,7 +31,7 @@ RUN set -x && \
     mysql-dev \
     git \
     curl-dev
-  # && npm install -g yarn
+    \ && npm install -g yarn
 
 RUN gem install bundler rails
 
